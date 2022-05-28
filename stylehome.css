@@ -132,8 +132,10 @@ footer p {
 }
 
 @media (min-width: 992px) {
-    .selector {
-        width: 970px;
+    .container {
+        grid-template-areas: "sidebar content" "sidebar footer";
+        grid-template-rows: 1fr auto;
+        grid-template-columns: 300px 1f;
     }
     nav ul {
         display: flex;
@@ -231,8 +233,14 @@ footer p {
     background: yellow;
 }
 
+@media (min-width:992px) {
+    .selector {
+        width: 970px;
+    }
+}
+
 @media (max-width:768px) {
     .selector {
-        width:750px;
+        width: 750px;
     }
 }
