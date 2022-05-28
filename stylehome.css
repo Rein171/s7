@@ -131,11 +131,14 @@ footer p {
     font-size: 0.8em;
 }
 
-@media (min-width: 1040px) {
+@media (min-width: 992px) {
     .container {
         grid-template-areas: "sidebar content" "sidebar footer";
         grid-template-rows: 1fr auto;
         grid-template-columns: 300px 1f;
+    }
+    .selector {
+        width: 970px;
     }
     nav ul {
         display: flex;
@@ -231,13 +234,6 @@ footer p {
 
 .link:visited {
     background: yellow;
-}
-
-@media (min-width:992px) {
-    .selector {
-
-        width:970px;
-    }
 }
 
 @media (max-width:768px) {
