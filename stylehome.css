@@ -236,13 +236,13 @@ footer p {
     background: yellow;
 }
 
-@media (min-width:992px) {
+@media (min-width:360px) {
     .selector {
         width: 970px;
     }
 }
 
-@media (max-width:768px) {
+@media (max-width:720px) {
     .selector {
         width: 750px;
     }
