@@ -115,8 +115,9 @@ footer ul {
 }
 
 footer ul li {
-	margin-top: 30px;
     list-style: none;
+    margin-top: 40;
+    margin-left: 45px;
     align-self: flex-end;
 }
 
