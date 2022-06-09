@@ -235,6 +235,7 @@ footer p {
 
 img.tengah {
     display: block;
+    max-width: 40%;
     margin-left: auto;
     margin-right: auto;
 }
